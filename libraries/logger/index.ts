@@ -2,10 +2,6 @@ export function logInfo(message: string) {
   console.log('INFO:', message);
 }
 
-export function logWarning() {
-
-}
-
-export function logError() {
-
+export function logError(message: string) {
+  console.error('ERROR:', message);
 }

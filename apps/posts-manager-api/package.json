@@ -1,0 +1,16 @@
+{
+  "name": "posts-manager-api",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2",
+    "@wanago/logger": "*"
+  },
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  }
+}
